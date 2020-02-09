@@ -10,8 +10,8 @@
   background-attachment: scroll;
   background-size: cover;
   h1 {
-    font-family: 'Montserrat';
-    font-size: 2.5rem;
+    font-family: 'Cinzel';
+    font-size: 150%;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: -webkit-linear-gradient(fade-out(white, 0.01), fade-out(white, 0.3));
@@ -19,8 +19,11 @@
     -webkit-background-clip: text;
   }
   h2 {
-    max-width: 20rem;
-    font-size: 1rem;
+    max-width: 75%;
+    font-size: 100%;
+    background: -webkit-linear-gradient(fade-out(white, 0.01), fade-out(white, 0.3));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
   }
   @media(min-width: 768px) {
     h1 {

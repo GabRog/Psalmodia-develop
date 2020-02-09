@@ -1,17 +1,17 @@
 #mainNav {
   min-height: 56px;
-  background-color: $white;
+  background-color: rgba($primary, 0.8);;
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: $primary;
-    border: 1px solid $primary;
+    color: $gray-200;
+    border: 1px solid $gray-200;
     &:focus {
       outline: none;
     }
   }
   .navbar-brand {
-    color: $black;
+    color: $gray-200;
     font-weight: 700;
     padding: .9rem 0;
   }
@@ -53,10 +53,10 @@
     &.navbar-shrink {
       background-color: $white;
       .navbar-brand {
-        color: $black;
+        color: $white;
       }
       .nav-link {
-        color: $black;
+        color: $white;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {

@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgba(146, 47, 61, 0.8);
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #922f3d;
-  border: 1px solid #922f3d;
+  color: #e9ecef;
+  border: 1px solid #e9ecef;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #e9ecef;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -61,13 +61,13 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #ffffff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #ffffff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #ffffff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -90,22 +90,16 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),
-              url("../img/psalmodia_choir.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/psalmodia_choir.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  overflow: hidden;
 }
 
 .masthead h1 {
-  font-family: 'Montserrat';
-  font-size: 2.5rem;
+  font-family: 'Cinzel';
+  font-size: 150%;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.7));
@@ -114,8 +108,11 @@
 }
 
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
+  max-width: 75%;
+  font-size: 100%;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.7));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 @media (min-width: 768px) {
@@ -144,7 +141,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Montserrat';
+  font-family: 'Cinzel';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -221,7 +218,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Montserrat';
+  font-family: 'Cinzel';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -239,7 +236,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Montserrat';
+  font-family: 'Cinzel';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -258,22 +255,22 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(163, 49, 63, 0.5);
+  background: rgba(143, 42, 56, 0.5);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  color: #ffffff;
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: 'Cinzel';
   letter-spacing: 0.0625em;
 }
 
