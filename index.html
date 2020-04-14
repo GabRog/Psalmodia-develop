@@ -5,7 +5,6 @@
       href="https://fonts.googleapis.com/css?family=Cinzel">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -46,6 +45,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-white" href="#people">Kadra</a>
+<!--            <a class="nav-link js-scroll-trigger" href="#people">People</a>-->
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger text-white" href="#contact">Kontakt</a>
 <!--            <a class="nav-link js-scroll-trigger text-white" href="#contact">Contact</a>-->
           </li>
@@ -68,12 +71,42 @@
     </div>
   </header>
 
+<!-- People section -->
+<section id="people" class="people-section">
+  <div class="container p-4">
+    <h1 class="section-title p-2">Kadra</h1>
+<!--    <h1 class="section-title p-2">People</h1>-->
+    <div class="row">
+      <div class="col-5 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-1">
+        <nav>
+          <div class="nav" id="nav-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-item nav-link active" id="nav-siedlik-tab" data-toggle="tab" href="#" data-target="#nav-siedlik" role="tab" aria-controls="nav-siedlik" aria-selected="true">Prof. Włodzimierz Siedlik</a>
+            <a class="nav-item nav-link" id="nav-nowak-tab" data-toggle="tab" href="#" data-target="#nav-nowak"  role="tab" aria-controls="nav-nowak" aria-selected="false">Łucja Nowak</a>
+            <a class="nav-item nav-link" id="nav-vrublewskyi-tab" data-toggle="tab" href="#" data-target="#nav-vrublewskyi" role="tab" aria-controls="nav-vrublewskyi" aria-selected="false">Ivan Vrublewskyi</a>
+            <a class="nav-item nav-link" id="nav-pawelek-tab" data-toggle="tab" href="#" data-target="#nav-pawelek" role="tab" aria-controls="nav-pawelek" aria-selected="false">Marek Pawełek</a>
+            <a class="nav-item nav-link" id="nav-szczepanska-tab" data-toggle="tab" href="#" data-target="#nav-szczepanska" role="tab" aria-controls="nav-szczepanska" aria-selected="false">Ilona Szczepańska</a>
+            <a class="nav-item nav-link" id="nav-wasilewski-kruk-tab" data-toggle="tab" href="#" data-target="#nav-wasilewski-kruk" role="tab" aria-controls="nav-wasilewski-kruk" aria-selected="false">Marcin Wasilewski-Kruk</a>
+          </div>
+        </nav>
+      </div>
+      <div class="col-7 col-sm-8 col-md-9 col-lg-9 col-xl-9 p-2">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-siedlik" role="tabpanel" aria-labelledby="nav-siedlik-tab"></div>
+          <div class="tab-pane fade" id="nav-nowak" role="tabpanel" aria-labelledby="nav-nowak-tab"></div>
+          <div class="tab-pane fade" id="nav-vrublewskyi" role="tabpanel" aria-labelledby="nav-vrublewskyi-tab"></div>
+          <div class="tab-pane fade" id="nav-pawelek" role="tabpanel" aria-labelledby="nav-pawelek-tab"></div>
+          <div class="tab-pane fade" id="nav-szczepanska" role="tabpanel" aria-labelledby="nav-szczepanska-tab"></div>
+          <div class="tab-pane fade" id="nav-wasilewski-kruk" role="tabpanel" aria-labelledby="nav-wasilewski-kruk-tab"></div>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
   <!-- Contact Section -->
   <section id="contact" class="contact-section bg-black">
     <div class="container">
-
       <div class="row">
-
         <div class="col-md-8 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
@@ -136,7 +169,6 @@
       Copyright &copy; Gabriela Rogowska 2020
     </div>
   </footer>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -146,6 +178,21 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+
+  <!--template for portfolio-->
+  <template id="portfolio-template">
+    <div class="row">
+      <div class="col-8">
+        <h3 class="portfolio-name text-primary"></h3>
+        <h5 class="portfolio-role text-primary"></h5>
+        <div class="portfolio-about pt-3"></div>
+      </div>
+      <div class="col-4">
+        <img src="img/portrait-placeholder.jpg" class="img-fluid" alt="Portrait placeholder">
+      </div>
+    </div>
+  </template>
+  <script src="index.js"></script>
 
 </body>
 </html>

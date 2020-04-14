@@ -1,0 +1,40 @@
+{
+  "portfolios": [
+    {
+      "about": "Człowiek o gołębim sercu.",
+      "elementId": "nav-siedlik",
+      "name": "Włodzimierz Siedlik",
+      "role": "Dyrygent Chóru Psalmodia"
+    },
+    {
+      "about": "Jak wiele dobra się w niej kryje?",
+      "elementId": "nav-nowak",
+      "name": "Łucja Nowak",
+      "role": "Asystent Dyrygenta Chóru Psalmodia\nDyrygent Krakowskiego Chóru Żeńskiego"
+    },
+    {
+      "about": "W tym człowieku gra muzyka",
+      "elementId": "nav-vrublewskyi",
+      "name": "Ivan Vrublewskyi",
+      "role": "Asystent Dyrygenta Chóru Psalmodia\nDyrygent Krakowskiego Chóru Męskiego"
+    },
+    {
+      "about": "Człowiek o wielu ukrytych talentach",
+      "elementId": "nav-pawelek",
+      "name": "Marek Pawełek",
+      "role": "Akompaniator Chóru Psalmodia"
+    },
+    {
+      "about": "Szalona i autentyczna",
+      "elementId": "nav-szczepanska",
+      "name": "Ilona Szczepańska",
+      "role": "Nauczyciel emisji głosu"
+    },
+    {
+      "about": "Baryton",
+      "elementId": "nav-wasilewski-kruk",
+      "name": "Marcin Wasilewski-Kruk",
+      "role": "Nauczyciel emisji głosu"
+    }
+  ]
+}
