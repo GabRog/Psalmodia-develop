@@ -4,6 +4,8 @@
 <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Cinzel">
 
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora"/>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -182,14 +184,19 @@
   <!--template for portfolio-->
   <template id="portfolio-template">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        <h3 class="portfolio-name text-primary"></h3>
-        <h5 class="portfolio-role text-primary"></h5>
-        <div class="portfolio-about pt-3"></div>
+<!--      <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">-->
+        <div class="col">
+          <h3 class="portfolio-name text-primary"></h3>
+          <h5 class="portfolio-role text-primary"></h5>
+        <div/>
+        <div class="col-md-12 col-lg-12 col-xl-12">
+          <img src="./img/portrait-placeholder.jpg" class="portfolio-photo pt-3 p-3 float-md-right float-xl-right float-lg-right mx-auto d-block" alt="Portrait placeholder">
+          <div class="portfolio-about pt-3 text-justify"></div>
+        </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <img src="./img/portrait-placeholder.jpg" class="img-fluid mt-2" alt="Portrait placeholder">
-      </div>
+<!--      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">-->
+<!--        <img src="./img/portrait-placeholder.jpg" class="img-fluid mt-2" alt="Portrait placeholder">-->
+<!--      </div>-->
     </div>
   </template>
   <script src="index.js"></script>

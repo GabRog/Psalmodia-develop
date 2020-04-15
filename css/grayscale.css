@@ -295,6 +295,14 @@ a:focus, a:hover {
   color: #922f3d !important;
 }
 
+.portfolio-about {
+  font-family: Lora;
+}
+
 footer {
   padding: 5rem 0;
+}
+
+img.portfolio-photo {
+  width: 60%;
 }
